@@ -1,0 +1,4 @@
+# MAMN01-HelloSensor
+
+Compass: https://www.codespeedy.com/simple-compass-code-with-android-studio/
+Vibration in compass: https://stackoverflow.com/questions/13950338/how-to-make-an-android-device-vibrate-with-different-frequency/13950364#13950364
