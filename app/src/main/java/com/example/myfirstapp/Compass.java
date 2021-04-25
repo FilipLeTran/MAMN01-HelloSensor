@@ -3,11 +3,13 @@ package com.example.myfirstapp;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Context;
+import android.content.Intent;
 import android.os.Build;
 import android.os.Bundle;
 import android.hardware.Sensor;
 import android.hardware.SensorManager;
 import android.os.VibrationEffect;
+import android.view.View;
 import android.view.animation.Animation;
 import android.view.animation.RotateAnimation;
 import android.hardware.SensorEvent;
@@ -84,6 +86,12 @@ public class Compass extends AppCompatActivity implements SensorEventListener {
                 return;
             }
         }
+    }
+
+
+    public void goBack(View view) {
+        Intent intent = new Intent(this, MainActivity.class);
+        startActivity(intent);
     }
 
 
